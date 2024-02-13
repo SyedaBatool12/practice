@@ -1,0 +1,31 @@
+.main{
+    height: 200px;
+    width: 700px;
+    background-color: blue ;
+    /* padding: 10px; */
+    display: flex;
+    /* flex-direction: column; */
+ /* justify-content: center; */
+ align-items:center ;
+ flex-wrap: wrap;
+}
+.one{
+    /* order: 1; */
+    background-color: pink;
+}
+.two{
+    background-color: aqua;
+}
+.three{
+    /* order: -2; */
+    background-color: blueviolet;
+    align-self: flex-start;
+}
+.four{
+    background-color: cadetblue;
+    align-self: flex-end;
+}
+.five{
+    /* order: -1; */
+    background-color: chartreuse;
+}
